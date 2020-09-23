@@ -3,11 +3,13 @@
 
 Early access
 
+## installation  
 ```bash
 #To install the TailwindVue
-yarn add TailwindVue
+yarn add tailwindvue
 ```
 
+## How to use
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
