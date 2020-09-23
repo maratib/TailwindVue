@@ -1,0 +1,36 @@
+{
+  "name": "tailwindvue",
+  "version": "0.0.9",
+  "description": "TailWindCSS Vue components",
+  "private": false,
+  "keywords": [
+    "tailwindcss",
+    "vue",
+    "tailwindVue"
+  ],
+  "author": "Maratib Ali Khan",
+  "license": "MIT",
+  "main": "./dist/tailwindvue.common.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name tailwindvue ./src/index.ts && cp ./src/types/index.d.ts ./dist"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0",
+    "vue-class-component": "^8.0.0-0",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "typescript": "~3.9.3"
+  }
+}
