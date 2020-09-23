@@ -1,6 +1,6 @@
 {
   "name": "tailwindvue",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "TailWindCSS Vue components",
   "private": false,
   "keywords": [
@@ -10,6 +10,11 @@
   ],
   "author": "Maratib Ali Khan",
   "license": "MIT",
+  "homepage": "https://github.com/maratib/TailwindVue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maratib/TailwindVue.git"
+  },
   "main": "./dist/tailwindvue.common.js",
   "types": "dist/index.d.ts",
   "files": [
